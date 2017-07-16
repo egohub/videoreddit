@@ -23,7 +23,7 @@ function getStreamables() {
 
   // xhttp.open("GET", "https://www.reddit.com/r/soccer/new/.json?limit=50", true);
   xhttp.send();
-}j
+}
 
 function doSomething(l) {
   var row = document.createElement("div");
@@ -54,12 +54,12 @@ function doSomething(l) {
     xhttp.send();
   }
 }
- 
+
 function buildColumn(video_src, video_title, thumb) {
   var col = document.createElement("div");
   col.className = "col s12 z-depth-3";
   var title = document.createElement("h5");
-  title.className = "card-title" 
+  title.className = "card-title"
   title.innerHTML = video_title + ' <a href="' + video_src + '"><i class="material-icons">aspect_ratio</i></a>';
   var video_cont = document.createElement("div");
   video_cont.className = "video-container card";
