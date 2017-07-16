@@ -1,0 +1,22 @@
+{
+  "name": "videoreddit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egohub/videoreddit.git"
+  },
+  "author": "egohub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egohub/videoreddit/issues"
+  },
+  "homepage": "https://github.com/egohub/videoreddit#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
