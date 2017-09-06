@@ -23,7 +23,7 @@ function getStreamables() {
 
   // xhttp.open("GET", "https://www.reddit.com/r/soccer/new/.json?limit=50", true);
   xhttp.send();
-}j
+}
 
 function doSomething(l) {
   var row = document.createElement("div");
